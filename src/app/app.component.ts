@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Keyup';
-}
+  getValue1 (i){
+  console.warn(i.target.value)
+  }
+  getValue2 (i){
+  console.warn(i)
+  }
+  }
